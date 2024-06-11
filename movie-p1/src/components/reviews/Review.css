@@ -1,0 +1,60 @@
+img{
+    border-radius: 10px;
+    border: 2px solid gold;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.fa-heart:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    color: crimson;
+}
+
+.fa-trash:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    color: gold;
+}
+.review-operation{
+    font-size: 10px;
+    display: flex;
+    justify-content:left;
+}
+.fa-heart{
+    margin-left: 5px;;
+}
+
+.review{
+    width: 100%;
+}
+.review-person{
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+.review-body{
+    width: calc(100% - 35px);
+}
+.review-family-card{
+    cursor: pointer;
+}
+.review-body-text{
+    font-size: 14px;
+    font-weight: lighter;
+    width: 95%;
+    display: inline;
+    break-inside: auto;
+    word-wrap: break-word;
+}
+
+
+
+.review-operation{
+    padding-top: 10px;
+}

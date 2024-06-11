@@ -1,0 +1,122 @@
+
+
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.248);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border: 2px solid rgba(255, 255, 255, 0.227);
+    z-index: 99;
+}
+
+.Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.form-group input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    color: white;
+}
+
+/* fix css when select input */
+.form-group input:focus{
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+}
+
+.btn-submit button{
+    background-color: transparent;
+    margin-top: 20px;
+    border: 2px solid white;
+    transition: ease-in-out 0.3s;
+}
+
+.tooltip{
+    background-color: black;
+}
+
+.btn-submit button:hover{
+    background-color: whitesmoke;
+    border: 2px solid white;
+    color: black;
+    font-weight: 800;
+}
+.Auth-form-content p{
+    font-size: 15px;
+}
+.Auth-form-content .fa-house{
+    margin-right: 20px;
+    color: beige;
+    font-size: 15px;
+}
+.circle1{
+    width: 70vw;
+    height: 70vw;
+    background-image: linear-gradient(to right bottom, #43CBFF, #9708CC);
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    border-radius: 100%;
+    filter: blur(5px);
+}
+.circle2{
+    width: 70vw;
+    height: 70vw;
+    background-image: linear-gradient(to right top, #F0FF00, #58CFFB);
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    border-radius: 100%;
+    filter: blur(5px);
+}
+.sign-up{
+    text-decoration: underline;
+}
+.sign-up:hover{
+    color: #9708CC;
+}
+.forgot-password span{
+    text-decoration: underline;
+}
+.forgot-password span:hover{
+    color: #9708CC;
+}
+
+.login{
+    text-decoration: underline;
+}
+.login:hover{
+    color: #9708CC;
+}

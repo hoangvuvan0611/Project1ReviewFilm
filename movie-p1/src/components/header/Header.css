@@ -1,0 +1,6 @@
+.header{
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    z-index: 99;
+}
